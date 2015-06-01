@@ -1,0 +1,23 @@
+{
+  "name": "artifactory-publisher",
+  "version": "1.0.0",
+  "description": "A simple tool for publishing files to Artifactory",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "copyright": "CROC Inc.",
+  "author": {
+    "name": "Sergei Dorogin",
+    "url": "https://github.com/evil-shrike"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "q": "^1.4.1",
+    "request": "~2.27.0",
+    "lodash": "~2.4.1"
+  },
+  "keywords": [
+    "artifactory", "CROC"
+  ]
+}
