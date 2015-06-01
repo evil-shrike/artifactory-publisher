@@ -1,3 +1,6 @@
+[![NPM](https://nodei.co/npm/artifactory-publisher.png?downloads=true&stars=true)](https://nodei.co/npm/artifactory-publisher/)
+
+
 # OVERVIEW
 
 artifactory-publisher is a simple tool for publishing files to [Artifactory](http://www.jfrog.com/artifactory/) via its REST API.

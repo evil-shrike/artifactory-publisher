@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/CrocInc/artifactory-publisher.git"
+  },
   "copyright": "CROC Inc.",
   "author": {
     "name": "Sergei Dorogin",
