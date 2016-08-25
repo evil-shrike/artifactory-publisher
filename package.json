@@ -1,8 +1,9 @@
 {
   "name": "artifactory-publisher",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A simple tool for publishing files to Artifactory",
   "main": "main.js",
+  "bin": "cli.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,11 +18,13 @@
   },
   "license": "MIT",
   "dependencies": {
+    "lodash": "~2.4.1",
     "q": "^1.4.1",
     "request": "~2.27.0",
-    "lodash": "~2.4.1"
+    "yargs": "^5.0.0"
   },
   "keywords": [
-    "artifactory", "CROC"
+    "artifactory",
+    "CROC"
   ]
 }

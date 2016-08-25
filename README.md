@@ -24,8 +24,8 @@ Type: `String`
 Required: yes  
 
 Fully qualified url of artifact.
-For example 'http://artifacts.mydomain.com:8001/my-repo/MyProduct/1.1/Subsystem1/MyProduct.Subsystem1.1.0.0.nupkg'
-Here:
+For example 'http://artifacts.mydomain.com:8001/my-repo/MyProduct/1.1/Subsystem1/MyProduct.Subsystem1.1.0.0.nupkg'.  
+Here:  
 * "http://artifacts.mydomain.com:8001/" - base Artifactory url (it usually contains /artifactory path)  
 * "my-repo" - repository name  
 * "MyProduct/1.1/Subsystem1/" - path in repository  
@@ -51,8 +51,10 @@ Required: no
 
 A proxy url to use for sending http requests.  
 
-# USAGE
 
+# Examples
+
+## via Node
 Here's a simple app (to run under Node) which publishes nuget packages into custom folders depending on their file names (it's hard to implement via Repository Layout in Artifactory).
 
 ```js
@@ -131,4 +133,10 @@ fs.readdir(folderPath, function (err,files) {
 		console.log("Done!\n");
 	});
 });
+```
+
+## via command line
+The tool can be run via CLI as well:  
+```
+artifactory-publisher.cmd -f "path/to/local/file.ext" -t http://artifacts.mydomain.com/my-repo/file.ext -u user1 -p password2
 ```
