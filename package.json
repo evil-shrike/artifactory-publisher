@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/CrocInc/artifactory-publisher.git"
+    "url": "https://github.com/CrocInc/artifactory-publisher.git"
   },
   "copyright": "CROC Inc.",
   "author": {
