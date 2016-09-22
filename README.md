@@ -138,5 +138,5 @@ fs.readdir(folderPath, function (err,files) {
 ## via command line
 The tool can be run via CLI as well:  
 ```
-artifactory-publisher.cmd -f "path/to/local/file.ext" -t http://artifacts.mydomain.com/my-repo/file.ext -u user1 -p password2
+artifactory-publisher -f "path/to/local/file.ext" -t http://artifacts.mydomain.com/my-repo/file.ext -u user1 -p password2
 ```
