@@ -1,25 +1,28 @@
 [![NPM](https://nodei.co/npm/artifactory-publisher.png?downloads=true&stars=true)](https://nodei.co/npm/artifactory-publisher/)
 
+# artifactory-publisher 
 
-# OVERVIEW
+> A simple tool for publishing files to Artifactory
 
-artifactory-publisher is a simple tool for publishing files to [Artifactory](http://www.jfrog.com/artifactory/) via its REST API.
+`artifactory-publisher` is a simple tool for publishing files to [Artifactory](http://www.jfrog.com/artifactory/) via its REST API.
 
-It provider the following API:
+> It's recommended to check this more superior tool - [artifactory-client](https://github.com/evil-shrike/artifactory-client).
 
-## publish(filePath, artUrl, options)
+
+## API
+### publish(filePath, artUrl, options)
 
 Publish `filePath` file (artifact) to `artUrl` url with using `options`.
 
 Returns a `Q` promise to be resolved when the artifact has published.
 
-### filePath
+#### filePath
 Type: `String`  
 Required: yes  
 
 A path to a file to publish (in terms of `fs` Node module).
 
-### artUrl
+#### artUrl
 Type: `String`  
 Required: yes  
 
@@ -31,13 +34,13 @@ Here:
 * "MyProduct/1.1/Subsystem1/" - path in repository  
 * "MyProduct.Subsystem1.1.0.0.nupkg" - file name (package)  
 
-### options
+#### options
 Type: `Object`  
 Required: no  
 
 Options object.  
 
-#### options.credentials
+##### options.credentials
 Type: `Object`  
 Required: no  
 
@@ -45,16 +48,16 @@ An object with fields:
 * username - Artifactory user name  
 * password - Artifactory user password  
 
-#### options.proxy
+##### options.proxy
 Type: `String`  
 Required: no  
 
 A proxy url to use for sending http requests.  
 
 
-# Examples
+## Examples
 
-## via Node
+### via Node
 Here's a simple app (to run under Node) which publishes nuget packages into custom folders depending on their file names (it's hard to implement via Repository Layout in Artifactory).
 
 ```js
@@ -135,8 +138,13 @@ fs.readdir(folderPath, function (err,files) {
 });
 ```
 
-## via command line
+### via command line
 The tool can be run via CLI as well:  
 ```
 artifactory-publisher -f "path/to/local/file.ext" -t http://artifacts.mydomain.com/my-repo/file.ext -u user1 -p password2
 ```
+
+
+## Licence
+
+MIT
