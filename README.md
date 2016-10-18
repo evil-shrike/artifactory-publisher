@@ -6,7 +6,7 @@
 
 `artifactory-publisher` is a simple tool for publishing files to [Artifactory](http://www.jfrog.com/artifactory/) via its REST API.
 
-> It's recommended to check this more superior tool - [artifactory-client](https://github.com/evil-shrike/artifactory-client).
+> Also please check this other (more superior) tool - [artifactory-client](https://github.com/evil-shrike/artifactory-client) (WIP).
 
 
 ## API
@@ -148,3 +148,5 @@ artifactory-publisher -f "path/to/local/file.ext" -t http://artifacts.mydomain.c
 ## Licence
 
 MIT
+
+Code for CLI tool `artifactory-publisher` was barrowed from package https://github.com/beevelop/artifactory-push by [@beevelop](https://github.com/beevelop).

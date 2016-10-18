@@ -1,8 +1,9 @@
 The MIT License (MIT)
 
-Copyright (c) 2015 CROC Inc.
+Copyright (c) 2015-2016 CROC Inc., Sergei Dorogin.
 
-The work partially based on David Lee's "grunt-artifactory-artifact" (http://github.com/leedavidr/grunt-artifactory-artifact) (licensed under MIT as well)
+The work is partially based on David Lee's "grunt-artifactory-artifact" (http://github.com/leedavidr/grunt-artifactory-artifact) 
+and includes Maik Hummel's code for CLI tool (https://github.com/beevelop/artifactory-push) (licensed under MIT as well).
 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
