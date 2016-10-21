@@ -42,7 +42,7 @@ var options = {};
 if (conf.user) {
     options.credentials = {
         username: conf.user,
-        password: conf.password
+        password: conf.password ? conf.password.toString() : null
     };
 }
 
