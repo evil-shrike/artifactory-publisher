@@ -145,8 +145,10 @@ artifactory-publisher -f "path/to/local/file.ext" -t http://artifacts.mydomain.c
 ```
 
 
+## Acknowledgments
+Code for CLI tool `artifactory-publisher` was barrowed from package [artifactory-push](https://github.com/beevelop/artifactory-push) by [@beevelop](https://github.com/beevelop).
+
+
 ## Licence
 
 MIT
-
-Code for CLI tool `artifactory-publisher` was barrowed from package https://github.com/beevelop/artifactory-push by [@beevelop](https://github.com/beevelop).

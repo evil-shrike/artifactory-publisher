@@ -1,20 +1,23 @@
 {
   "name": "artifactory-publisher",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "A simple tool for publishing files to Artifactory",
   "main": "main.js",
-  "bin": "cli.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "bin": "cli-bin.js",
+  "copyright": "CROC Inc.",
+  "author": {
+    "name": "Sergei Dorogin",
+    "url": "http://about.dorogin.com"
   },
+  "homepage": "https://github.com/CrocInc/artifactory-publisher",
+  "bugs": "https://github.com/CrocInc/artifactory-publisher/issues",
   "repository": {
     "type": "git",
     "url": "https://github.com/CrocInc/artifactory-publisher.git"
   },
-  "copyright": "CROC Inc.",
-  "author": {
-    "name": "Sergei Dorogin",
-    "url": "https://github.com/evil-shrike"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evil-shrike/yeoman-gen-run.git"
   },
   "license": "MIT",
   "dependencies": {
