@@ -1,6 +1,4 @@
-﻿#!/usr/bin/env node
-
-var yargs = require('yargs');
+﻿var yargs = require('yargs');
 var publisher = require('.');
 var path = require('path');
 

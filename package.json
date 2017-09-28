@@ -1,6 +1,6 @@
 {
   "name": "artifactory-publisher",
-  "version": "1.1.2",
+  "version": "1.1.4",
   "description": "A simple tool for publishing files to Artifactory",
   "main": "main.js",
   "bin": "cli-bin.js",
