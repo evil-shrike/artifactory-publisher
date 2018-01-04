@@ -15,10 +15,6 @@
     "type": "git",
     "url": "https://github.com/CrocInc/artifactory-publisher.git"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/evil-shrike/yeoman-gen-run.git"
-  },
   "license": "MIT",
   "dependencies": {
     "lodash": "~2.4.1",
