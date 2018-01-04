@@ -87,7 +87,7 @@ module.exports = {
     /**
      * Publish a file to Artifactory
      * @param {String} filePath Fully qualified path to a package file (in terms of `fs` module)
-     * @param {Stirng} artUrl Fully qualified url of artifact (e.g. 'http://server:8001/myrepo/MyProduct/1.1/Subsystem1/MyProduct.Subsystem1.1.0.0.nupkg')
+     * @param {String} artUrl Fully qualified url of artifact (e.g. 'http://server:8001/myrepo/MyProduct/1.1/Subsystem1/MyProduct.Subsystem1.1.0.0.nupkg')
      * @param {Object} [options]
      * @param {Object} [options.credentials]
      * @param {String} [options.credentials.username] Artifactory user name
